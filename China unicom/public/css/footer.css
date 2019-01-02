@@ -1,0 +1,38 @@
+.font_size a,.f_adress a{
+   font-size: 0.9rem;
+    color:#999;
+}
+.font_size a:hover{
+    color:#dc3545;
+}
+.f_border{
+    border-radius: 5px;
+    margin:20px !important;
+}
+.f_link{
+    width: 4%;
+    color:#fff;
+    background: #adadad;
+    font-size: 0.9rem;
+    padding:17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+}
+.f_adress{
+    margin-top:12%;
+}
+.f_adress a:hover{
+    color:#dc3545;
+}
+.copy_right{
+    color:#ccc;
+    font-size: 0.9rem;
+    border-bottom: 1px solid #eee;
+    width: 75%;
+}
+.copy{
+    color:#ccc;
+    font-size: 0.9rem;
+}
+
+

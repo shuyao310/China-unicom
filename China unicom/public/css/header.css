@@ -1,0 +1,38 @@
+body{margin:0;padding: 0;}
+.header_top{
+    background: #333333;
+}
+.top_width {
+    width: 60%;
+
+}
+.top_width li a{
+    color:#fff;
+    font-size: 0.7rem;
+}
+.top_width li a:hover{
+    color:#dc3545;
+    text-decoration: none;
+}
+.content::after{content:"";display:block;clear:both;}
+
+.img_btn{
+    border: 1px solid #dc3545;
+    height:40px;
+    border-radius:50px;
+    line-height: 33px;
+    margin-top:1%;
+}
+.search_style{
+    border:1px solid #dc3545;
+    border-radius: 9px;
+    width: 100%;
+}
+.nav_style a{
+    color:#000 !important;
+}
+.nav_style a:hover{
+   color:#dc3545 !important;
+}
+
+
