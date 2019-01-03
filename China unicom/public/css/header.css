@@ -28,6 +28,9 @@ body{margin:0;padding: 0;}
     border-radius: 9px;
     width: 100%;
 }
+.nav_style{
+    margin-right: 2rem;
+}
 .nav_style a{
     color:#000 !important;
 }
