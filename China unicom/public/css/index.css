@@ -27,16 +27,37 @@ footer iframe{
     background: #fff;
     margin-top: 2rem;
 }
-.plate_border{
-    border:1px solid red;
+
+.container{
     border-radius: 2rem;
+    overflow: hidden;
+}
+.plate_top{
+    color:#679af8;
+    font-size: 1.3rem;
+}
+.plate_top a{
+    color:#679af8;
+    font-size: 1.3rem;
 }
 .card_border{
     overflow: hidden;
     border: 1px solid #f0f0f0;
 }
+.sale{
+    width: 4rem;
+    height: 1.5rem;
+    background-image: linear-gradient(to top, #9ec2fb, #90b1f3);
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+.sale p{
+    margin:0;
+    color:#fff;
+    font-size: 0.6rem;
+}
 .card1{
-    margin-top:5rem;
+    margin-top:3.2rem;
     transition:1s;
 }
 .card1:hover{
@@ -68,8 +89,37 @@ footer iframe{
 .card_font_style{
     font-size: 1.3rem;
     color:#f17515
-
+}
+.card6_style{
+    margin-top: 4rem;
+}
+.card6_font{
+    margin-top: 3.5rem
+}
+.bluemore_top{
+    margin-top: 3.5rem
+}
+.sale2{
+    background-image: linear-gradient(to top, #ff906e, #ff7d7d);
 }
 
-
+.plate2_top{
+    color:#fc767e;
+    font-size: 1.2rem;
+}
+.plate2_top a{
+    color:#fc767e;
+    font-size: 1.2rem;
+}
+.click{
+    border: 1px solid #dc3545;
+    height:2rem;
+    width: 7rem;
+    border-radius:50px;
+    line-height: 33px;
+    margin:auto;
+}
+.a_color{
+    color: #000;
+}
 
