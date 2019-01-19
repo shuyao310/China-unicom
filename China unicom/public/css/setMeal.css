@@ -7,11 +7,20 @@ footer iframe{
     height:500px;
 }
 .main1_bg{
-    background: url(../image/setMeal/bg2_img.jpg) center 0px;
+    background: url(../image/setMeal/bg2_img.png) center 0px;
 }
 .bg3 {
     background: url(../image/setMeal/bg3.jpg) no-repeat ;
     height: 515px;
+}
+.number_city{
+    border-right: 2px solid #f0f0f0;
+}
+.number_city>p:last-child{
+  font-size: 0.9rem;
+}
+.chongqing{
+    color:#f9810a;
 }
 .number_width{
     width: 87%;
@@ -19,6 +28,19 @@ footer iframe{
 }
 .number_border{
     border: 1px solid #f0f0f0;
+}
+.number_border>h5>span{
+    color:#f9810a;
+}
+.save_price{
+    font-size: 0.2rem;
+    color:#888;
+}
+.number_font{
+    font-size:0.9rem;
+    color:#f9810a;
+    border: 1px solid #f9810a;
+    padding: 1px;
 }
 
 
