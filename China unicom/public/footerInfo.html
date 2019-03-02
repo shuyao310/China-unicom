@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/info.css">
+</head>
+<body>
+<div class="con">
+    <!-- 主体 -->
+<div class="clearfix">
+        <!-- 左边 -->
+    <div class="left">
+        <h4 class="helpcenter">帮助中心</h4>
+        <h4 class="secTitle">购物指南</h4>
+        <ul>
+            <li class="selected" >购物流程</li>
+            <li  class="">发票说明</li>
+            <li  class="">联系客服</li>
+            <li  class="">服务协议</li>
+            <li  class="">试用协议</li>
+        </ul>
+        <div class="line"></div>
+        <h4 class="secTitle3">支付方式</h4>
+        <ul>
+            <li class="">在线支付</li>
+            <li  class="">快捷支付</li>
+            <li  class="">货到付款</li>
+        </ul>
+        <div class="line"></div>
+        <h4 class="secTitle2">配送方式</h4>
+        <ul>
+            <li class="">快递配送</li>
+            <li  class="">上门自提</li>
+        </ul>
+        <div class="line"></div>
+        <h4 class="secTitle4">售后服务</h4>
+        <ul>
+            <li class="">退换货政策</li>
+            <li  class="">退换货流程</li>
+            <li  class="">退款说明</li>
+            <li  class="">退款申请</li>
+            <li  class="">手机维修</li>
+        </ul>
+        <div class="line"></div>
+        <h4 class="secTitle4">联通特色服务</h4>
+        <ul>
+            <li class="">退换货政策</li>
+            <li  class="">退换货流程</li>
+            <li  class="">营业厅分布查询</li>
+            <li  class="">手机号码归属地查询</li>
+            <li  class="">常见问题查询</li>
+        </ul>
+        <div class="line"></div>
+        <h4 class="secTitle4">隐私申明</h4>
+        <ul>
+            <li class="">隐私申明</li>
+        </ul>
+    </div>
+    <!-- 右边 -->
+    <div class="right">
+        <!-- 购物流程 -->
+        <div class="shoppingProcess">
+           <h3>购物流程</h3>
+           <hr>
+           <div>
+               <h4>1.购物流程图</h4>
+                    <img src="./image/footerinfo/img1_1.jpg" alt="">
+               <h4>2.如何注册</h4>
+                    <p>1）点击页面顶部“免费注册”，进入注册页面。</p>
+                    <img src="./image/footerinfo/img1_2.gif" alt="">
+                    <p>2）填写邮箱、密码等个人信息进行注册。</p>
+                    <img src="./image/footerinfo/img1_3.gif" alt="">
+                    <p>3）点击“同意以上条款并注册”完成注册。</p>
+                    <img src="./image/footerinfo/img1_4.gif" alt="">
+                <h4>3.如何提交订单</h4>   
+                    <p>1）选中商品后在详情页面点击立即购买。</p>
+                    <img src="./image/footerinfo/img1_5.gif" alt="">
+                    <p>2）点击立即购买后进入订单填写页面。</p>
+                    <img src="./image/footerinfo/img1_6.gif" alt="">
+                    <p>3）填写相关信息，确认无误后点击“提交订单”，生成订单。</p>
+                <h4>4.如何查询订单</h4>   
+                    <p>1）点击页面顶部“我的商城”进入订单中心：</p>
+                    <img src="./image/footerinfo/img1_7.gif" alt="">
+                    <p>2）在订单中心可搜索查询订单详情：</p>
+                    <img src="./image/footerinfo/img1_8.gif" alt="">  
+                <h4>5.订单状态说明</h4>     
+                     <img src="./image/footerinfo/img1_9.jpg" alt=""> 
+           </div>
+        </div>
+        <!-- 发票流程 -->
+        <div class="invoice">
+            <h3>发票说明</h3>
+            <hr>
+            <p>1、联通商城所售商品（号卡、终端合约计划、上网卡等）都是正品行货，自带发票或收据。</p>
+            <p>2、根据国家税务总局要求，联通商城各省（除黑龙江及天津外）将不再开具原纸质通用机打发票，全面推行增值税电子普通发票。增值税电子普通发票的法律效力、基本用途、基本使用规定等与税务机关监制的增值税普通发票相同。</p>
+            <p>3、联通商城销售的部分终端和配件，相关发票由供货商提供，其他产品的发票，由联通公司提供。</p>
+        </div>
+    </div>
+</div>
+</div>
+    <script>
+       //获取所有li的节点
+        var list = document.getElementsByTagName("li");
+        //给每个li绑定事件
+        for(var i = 0;i<list.length;i++){
+            list[i].onclick = function(){ 
+                // 点击后循环遍历每个li,并将其class去除
+                for (var i = 0; i < list.length; i++) {
+                    list[i].className = '';
+                }
+            // 给每个li切换class属性
+            this.className="selected";
+            }
+        }
+    </script>
+</body>
+</html>

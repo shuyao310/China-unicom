@@ -1,11 +1,17 @@
 
-/*÷–∆¡*/
+/*Â§ßÂ±è*/
+@media (min-width: 1200px){
+    .container {
+        max-width: 1500px;
+    }
+}
+/* ‰∏≠Â±è */
 @media screen and (min-width: 768px) and (max-width: 991px){
     .nav_style{
         margin-right: 1rem;
     }
 }
-/*–°∆¡*/
+/*Â∞èÂ±è*/
 @media screen and (max-width: 767px){
    .nav_style{
       margin-right: 0.1rem;

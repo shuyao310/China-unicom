@@ -1,0 +1,97 @@
+*{margin: 0;padding: 0}
+.con{
+    width: 70%; 
+    margin: 0 auto;
+
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+    margin-bottom:40px; 
+}
+h4{margin: 0;}
+.left{
+    width: 20%;
+    float: left;
+    background:  #FFF6EF;
+    padding: 10px;
+
+}
+.helpcenter{
+    padding-top: 3px;
+    padding-bottom: 6px;
+    margin-left: 10px;
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bold;
+    color: #EC6D00;
+    text-align: center;
+    border-bottom: 1px solid #FFE2CC;
+}
+.secTitle{
+    background: url(../image/footerinfo/logo1.gif) no-repeat left center;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+ul>li{
+    padding-left: 22px;
+    margin-top: 10px; 
+}
+.line{
+    padding-top: 3px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #FFE2CC;
+}
+.secTitle3{
+    background: url(../image/footerinfo/logo3.gif) no-repeat left center;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+.secTitle2{
+    background: url(../image/footerinfo/logo2.gif) no-repeat left center;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+.secTitle4{
+    background: url(../image/footerinfo/logo4.gif) no-repeat left center;
+    padding-left: 22px;
+    margin-top: 10px;
+}
+ul li:hover{
+    color: #FF6500;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+ ul li.selected{
+    background: url(../image/footerinfo/listBg_s1.gif) no-repeat left center;
+    color: #FF6500;
+}
+.right{
+    float: left;
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.shoppingProcess{
+    display: none;
+}
+.shoppingProcess div h4{
+    color: #656565;
+}
+.shoppingProcess div p{
+    font-size: 0.8rem;
+    padding: 10px;
+}
+.invoice p{
+    color: #656565;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+
+

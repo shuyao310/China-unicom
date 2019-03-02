@@ -8,10 +8,10 @@ footer iframe{
     height:500px;
 }
 .main1_bg{
-    background: url(../image/setMeal/bg2_img.png) center 0px;
+    background: url(http://127.0.0.1:3000/image/setMeal/bg2_img.png) center 0px;
 }
 .bg3 {
-    background: url(../image/setMeal/bg3.jpg) no-repeat ;
+    background: url(http://127.0.0.1:3000/image/setMeal/bg3.jpg) no-repeat ;
     height: 515px;
 }
 .number_city{
@@ -79,44 +79,92 @@ span.tip{
     border-color: #ff7300;
     color: #333333;
 }
+
 .broadSales li{
     border: 2px solid #ff7300;
     border-radius: 5px;
-    width:150px;
-    height:150px;
+    width:300px;
+    height:300px;
     margin-right: 20px;
     position: relative; 
 }
 .broadSales li a p{
     position: absolute;
-    background: url(../image/setMeal/green.png) no-repeat;
+    background: url(http://127.0.0.1:3000/image/setMeal/green.png) no-repeat;
     background-size: 70% 70%;
     font-size: 40px;
     width:100%;
     height:100%;
-    left: 23px;
-    top:18px
+    left:43px;
+    top:38px
     
 }
 .broadSales li a p span{
     position: absolute;
-    left: 9px;
-    top:18px
+    left:53px;
+    top:62px
 }
 .broadSales li a p img{
   position: absolute;
-  left: -15px;
-  top:75px;
+  left: -30px;
+  top:129px;
   width: 50%
 }
 
 .broadSales li a p .perYear{
    position: absolute;
    font-size: 0.6rem;
-   left: 1  6px;
-   top:108px;
+   left:42px;
+   top:213px;
    color:#f86478
 }
+
+/* 标签元素选择图 */
+.selectedTag ul{
+  position: relative
+}
+.selectedTag ul .move1 {
+    position: absolute;
+    left:154px;
+    display: block;
+}
+.selectedTag ul .move2 {
+    position: absolute;
+    left:474px;
+    display: block;
+}
+.selectedTag ul li img{
+    width: 30px;
+    height: 20px;
+}
+
+.orangeline {
+    background-color: #ff7300;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.broadbuy{
+
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+.broadbuy a{
+    margin-top: 10px;
+}
+.broadbuy a p{
+    height: 53px;
+    width: 225px;
+    background: #f9810a;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: 40px;
+    line-height: 50px;
+}
+
 
 
 

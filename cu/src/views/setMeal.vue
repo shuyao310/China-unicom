@@ -1,0 +1,502 @@
+<template>
+    <div>
+    <div id="setMain">
+    <!-- 背景主图-->
+    <img class="w-100" src="http://127.0.0.1:3000/image/setMeal/bg_img.png" alt=""/>
+    <div class="main1_bg">
+        <div class="container">
+            <!-- 靓号-->
+            <!--靓号1-->
+            <img class="w-100" src="http://127.0.0.1:3000/image/setMeal/main1_img.jpg" alt=""/>
+            <div class="bg3">
+            <div class="row m-0 number_width m-auto">
+                <div class="col-12 d-flex">
+                    <div class="number_city">
+                        <p class="mb-0 text-center">
+                            <img src="http://127.0.0.1:3000/image/setMeal/litterImg.png" alt=""/>
+                        </p>
+                        <p class="mb-0">号码归属地</p>
+                    </div>
+                    <a href="#" class="chongqing ml-4 mt-2">重庆</a>
+                </div>
+                <!-- 号码1行-->
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <!-- 号码2行-->
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <!-- 号码3行-->
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <!-- 号码4行-->
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <h4 class="m-0">156&nbsp;&nbsp;8363
+                        <span>3364</span>
+                    </h4>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                        <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                    <div class="mt-3">
+                        <img src="http://127.0.0.1:3000/image/setMeal/change.png" alt=""/>
+                    </div>
+                    <p>换一批</p>
+                </div>
+            </div>
+            </div>
+            <!--靓号3 -->
+            <img class="w-100" src="http://127.0.0.1:3000/image/setMeal/main3_img.jpg" alt=""/>
+            <div class="bg3">
+                <div class="row m-0 number_width m-auto">
+                    <div class="col-12 d-flex">
+                        <div class="number_city">
+                            <p class="mb-0 text-center">
+                                <img src="http://127.0.0.1:3000/image/setMeal/litterImg.png" alt=""/>
+                            </p>
+                            <p class="mb-0">号码归属地</p>
+                        </div>
+                        <a href="#" class="chongqing ml-4 mt-2">重庆</a>
+                    </div>
+                    <!-- 号码1行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <!-- 号码2行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <!-- 号码3行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <!-- 号码4行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">学霸靓号</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <div class="mt-3">
+                            <img src="http://127.0.0.1:3000/image/setMeal/change.png" alt=""/>
+                        </div>
+                        <p>换一批</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg3">
+                <div class="row m-0 number_width m-auto">
+                    <div class="col-12 d-flex">
+                        <div class="number_city">
+                            <p class="mb-0 text-center">
+                                <img src="http://127.0.0.1:3000/image/setMeal/litterImg.png" alt=""/>
+                            </p>
+                            <p class="mb-0">号码归属地</p>
+                        </div>
+                        <a href="#" class="chongqing ml-4 mt-2">重庆</a>
+                    </div>
+                    <!-- 号码1行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <!-- 号码2行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <!-- 号码3行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <!-- 号码4行-->
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <h4 class="m-0">156&nbsp;&nbsp;8363
+                            <span>3364</span>
+                        </h4>
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-0 mt-2 ml-3 save_price">预存话费:0元</p>
+                            <p class="mb-0 mt-2 mr-4 number_font">顺心顺意</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 p-3 number_border text-center">
+                        <div class="mt-3">
+                            <img src="http://127.0.0.1:3000/image/setMeal/change.png" alt=""/>
+                        </div>
+                        <p>换一批</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="w-100" src="http://127.0.0.1:3000/image/setMeal/main4_img.png" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</template>
+<script>
+export default {
+    
+}
+</script>
+<style scoped>
+@import "../../public/css/setMeal.css" ;
+</style>
